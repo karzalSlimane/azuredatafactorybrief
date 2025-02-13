@@ -1,0 +1,6 @@
+{
+	"name": "newRunTime",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
