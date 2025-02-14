@@ -30,7 +30,7 @@
 			"value": "https://skarzalsa.dfs.core.windows.net/"
 		},
 		"AzureDataLakeStorage2_properties_typeProperties_url": {
-			"value": "https://skarzalsa.dfs.core.windows.net/"
+			"value": "https://slimanedatalake.dfs.core.windows.net/"
 		},
 		"AzureDataLakeStorage3_properties_typeProperties_url": {
 			"value": "https://skarzalsa.dfs.core.windows.net/"

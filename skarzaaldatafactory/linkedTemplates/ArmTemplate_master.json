@@ -41,7 +41,7 @@
 		},
 		"AzureDataLakeStorage2_properties_typeProperties_url": {
 			"type": "string",
-			"defaultValue": "https://skarzalsa.dfs.core.windows.net/"
+			"defaultValue": "https://slimanedatalake.dfs.core.windows.net/"
 		},
 		"AzureDataLakeStorage3_properties_typeProperties_url": {
 			"type": "string",
