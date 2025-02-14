@@ -1,0 +1,9 @@
+{
+	"name": "skarzaaldatafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9e31a57a-e2a0-400f-a8f8-623b4a3925ff",
+		"tenantId": "a2e466aa-4f86-4545-b5b8-97da7c8febf3"
+	}
+}
