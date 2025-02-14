@@ -18,7 +18,7 @@
 				"spark.dynamicAllocation.enabled": "false",
 				"spark.dynamicAllocation.minExecutors": "2",
 				"spark.dynamicAllocation.maxExecutors": "2",
-				"spark.autotune.trackingId": "a45a770b-0494-405c-be8e-cf642b694c34"
+				"spark.autotune.trackingId": "91effc31-3666-42c4-95e0-c3d5da5e3b9f"
 			}
 		},
 		"metadata": {
@@ -63,6 +63,67 @@
 					"display(df.limit(10))"
 				],
 				"execution_count": 2
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					""
+				],
+				"execution_count": 13
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"df.show()"
+				],
+				"execution_count": 11
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"from pyspark.sql.functions import col\r\n",
+					"\r\n",
+					"# Supprimer les lignes où les colonnes essentielles sont nulles\r\n",
+					"data_frame = data_frame.dropna(subset=[\"tpep_pickup_datetime\", \"tpep_dropoff_datetime\", \"fare_amount\"])\r\n",
+					"\r\n",
+					"# Filtrer les valeurs aberrantes (exemple : distance négative ou trop élevée)\r\n",
+					"data_frame = data_frame.filter((col(\"trip_distance\") > 0) & (col(\"fare_amount\") > 0))\r\n",
+					""
+				],
+				"execution_count": 14
 			},
 			{
 				"cell_type": "code",
