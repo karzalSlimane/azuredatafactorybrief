@@ -5,8 +5,14 @@
 		"workspaceName": {
 			"value": "slimanesynapsanalytics"
 		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
 		"slimanesynapsanalytics-WorkspaceDefaultSqlServer_connectionString": {
 			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:slimanesynapsanalytics.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://nyctaxianalysisdatalake.dfs.core.windows.net/"
 		},
 		"slimanesynapsanalytics-WorkspaceDefaultStorage_properties_typeProperties_url": {
 			"value": "https://slimanedatalake.dfs.core.windows.net"
