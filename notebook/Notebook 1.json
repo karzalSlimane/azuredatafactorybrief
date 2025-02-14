@@ -1,0 +1,416 @@
+{
+	"name": "Notebook 1",
+	"properties": {
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "karzalpool",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"runAsWorkspaceSystemIdentity": false,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "d36ba113-323b-4f43-ab4a-6808de49341e"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1",
+				"state": {
+					"f10e797d-7a57-4473-8e46-c3bf31e40a20": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "2",
+										"1": "2020-09-01 00:38:58",
+										"2": "2020-09-01 01:08:12",
+										"3": "1.0",
+										"4": "10.76",
+										"5": "1.0",
+										"6": "N",
+										"7": "132",
+										"8": "62",
+										"9": "1",
+										"10": "32.5",
+										"11": "0.5",
+										"12": "0.5",
+										"13": "4.4",
+										"14": "0.0",
+										"15": "0.3",
+										"16": "38.2",
+										"17": "0.0"
+									},
+									{
+										"0": "2",
+										"1": "2020-09-01 00:55:26",
+										"2": "2020-09-01 01:15:34",
+										"3": "1.0",
+										"4": "6.37",
+										"5": "1.0",
+										"6": "N",
+										"7": "48",
+										"8": "129",
+										"9": "1",
+										"10": "20.5",
+										"11": "0.5",
+										"12": "0.5",
+										"13": "3.0",
+										"14": "0.0",
+										"15": "0.3",
+										"16": "27.3",
+										"17": "2.5"
+									},
+									{
+										"0": "2",
+										"1": "2020-09-01 00:00:40",
+										"2": "2020-09-01 00:10:25",
+										"3": "5.0",
+										"4": "2.32",
+										"5": "1.0",
+										"6": "N",
+										"7": "102",
+										"8": "37",
+										"9": "1",
+										"10": "9.5",
+										"11": "0.5",
+										"12": "0.5",
+										"13": "4.0",
+										"14": "0.0",
+										"15": "0.3",
+										"16": "14.8",
+										"17": "0.0"
+									},
+									{
+										"0": "2",
+										"1": "2020-09-01 00:26:01",
+										"2": "2020-09-01 00:35:50",
+										"3": "1.0",
+										"4": "1.82",
+										"5": "1.0",
+										"6": "Y",
+										"7": "137",
+										"8": "246",
+										"9": "1",
+										"10": "8.5",
+										"11": "0.5",
+										"12": "0.5",
+										"13": "3.08",
+										"14": "0.0",
+										"15": "0.3",
+										"16": "15.38",
+										"17": "2.5"
+									},
+									{
+										"0": "1",
+										"1": "2020-09-01 00:29:09",
+										"2": "2020-09-01 01:00:33",
+										"3": "1.0",
+										"4": "4.9",
+										"5": "1.0",
+										"6": "N",
+										"7": "79",
+										"8": "170",
+										"9": "1",
+										"10": "24.0",
+										"11": "3.0",
+										"12": "0.5",
+										"13": "1.0",
+										"14": "0.0",
+										"15": "0.3",
+										"16": "28.8",
+										"17": "2.5"
+									},
+									{
+										"0": "2",
+										"1": "2020-09-01 00:09:50",
+										"2": "2020-09-01 00:12:38",
+										"3": "3.0",
+										"4": "1.03",
+										"5": "1.0",
+										"6": "N",
+										"7": "263",
+										"8": "141",
+										"9": "2",
+										"10": "5.0",
+										"11": "0.5",
+										"12": "0.5",
+										"13": "0.0",
+										"14": "0.0",
+										"15": "0.3",
+										"16": "8.8",
+										"17": "2.5"
+									},
+									{
+										"0": "2",
+										"1": "2020-09-01 00:40:30",
+										"2": "2020-09-01 00:52:16",
+										"3": "5.0",
+										"4": "3.43",
+										"5": "1.0",
+										"6": "N",
+										"7": "170",
+										"8": "263",
+										"9": "2",
+										"10": "12.0",
+										"11": "0.5",
+										"12": "0.5",
+										"13": "0.0",
+										"14": "0.0",
+										"15": "0.3",
+										"16": "15.8",
+										"17": "2.5"
+									},
+									{
+										"0": "1",
+										"1": "2020-09-01 00:34:21",
+										"2": "2020-09-01 01:03:24",
+										"3": "1.0",
+										"4": "15.1",
+										"5": "1.0",
+										"6": "N",
+										"7": "132",
+										"8": "89",
+										"9": "2",
+										"10": "43.5",
+										"11": "0.5",
+										"12": "0.5",
+										"13": "0.0",
+										"14": "0.0",
+										"15": "0.3",
+										"16": "44.8",
+										"17": "0.0"
+									},
+									{
+										"0": "2",
+										"1": "2020-09-01 00:14:46",
+										"2": "2020-09-01 00:23:18",
+										"3": "1.0",
+										"4": "1.9",
+										"5": "1.0",
+										"6": "N",
+										"7": "138",
+										"8": "129",
+										"9": "1",
+										"10": "8.5",
+										"11": "0.5",
+										"12": "0.5",
+										"13": "2.45",
+										"14": "0.0",
+										"15": "0.3",
+										"16": "12.25",
+										"17": "0.0"
+									},
+									{
+										"0": "1",
+										"1": "2020-09-01 00:03:45",
+										"2": "2020-09-01 00:34:52",
+										"3": "1.0",
+										"4": "11.6",
+										"5": "1.0",
+										"6": "N",
+										"7": "132",
+										"8": "49",
+										"9": "1",
+										"10": "35.0",
+										"11": "0.5",
+										"12": "0.5",
+										"13": "9.05",
+										"14": "0.0",
+										"15": "0.3",
+										"16": "45.35",
+										"17": "0.0"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "VendorID",
+										"type": "bigint"
+									},
+									{
+										"key": "1",
+										"name": "tpep_pickup_datetime",
+										"type": "timestamp_ntz"
+									},
+									{
+										"key": "2",
+										"name": "tpep_dropoff_datetime",
+										"type": "timestamp_ntz"
+									},
+									{
+										"key": "3",
+										"name": "passenger_count",
+										"type": "double"
+									},
+									{
+										"key": "4",
+										"name": "trip_distance",
+										"type": "double"
+									},
+									{
+										"key": "5",
+										"name": "RatecodeID",
+										"type": "double"
+									},
+									{
+										"key": "6",
+										"name": "store_and_fwd_flag",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "PULocationID",
+										"type": "bigint"
+									},
+									{
+										"key": "8",
+										"name": "DOLocationID",
+										"type": "bigint"
+									},
+									{
+										"key": "9",
+										"name": "payment_type",
+										"type": "bigint"
+									},
+									{
+										"key": "10",
+										"name": "fare_amount",
+										"type": "double"
+									},
+									{
+										"key": "11",
+										"name": "extra",
+										"type": "double"
+									},
+									{
+										"key": "12",
+										"name": "mta_tax",
+										"type": "double"
+									},
+									{
+										"key": "13",
+										"name": "tip_amount",
+										"type": "double"
+									},
+									{
+										"key": "14",
+										"name": "tolls_amount",
+										"type": "double"
+									},
+									{
+										"key": "15",
+										"name": "improvement_surcharge",
+										"type": "double"
+									},
+									{
+										"key": "16",
+										"name": "total_amount",
+										"type": "double"
+									},
+									{
+										"key": "17",
+										"name": "congestion_surcharge",
+										"type": "double"
+									},
+									{
+										"key": "18",
+										"name": "airport_fee",
+										"type": "double"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala",
+							"wranglerEntryContext": {
+								"dataframeType": "pyspark"
+							}
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "sum",
+									"categoryFieldKeys": [
+										"3"
+									],
+									"seriesFieldKeys": [
+										"0"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					}
+				}
+			},
+			"enableDebugMode": false,
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/59b3f2eb-caba-469e-afca-cde678d49c24/resourceGroups/skarzal/providers/Microsoft.Synapse/workspaces/slimanesynapsanalytics/bigDataPools/karzalpool",
+				"name": "karzalpool",
+				"type": "Spark",
+				"endpoint": "https://slimanesynapsanalytics.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/karzalpool",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net",
+					"authHeader": null
+				},
+				"sparkVersion": "3.4",
+				"nodeCount": 10,
+				"cores": 4,
+				"memory": 28,
+				"extraHeader": null
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"metadata": {
+					"microsoft": {
+						"language": "python"
+					},
+					"collapsed": false
+				},
+				"source": [
+					"%%pyspark\r\n",
+					"df = spark.read.load('abfss://raw@slimanedatalake.dfs.core.windows.net/yellow_tripdata_2020-09.parquet', format='parquet')\r\n",
+					"display(df.limit(10))"
+				],
+				"execution_count": 1
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					""
+				]
+			}
+		]
+	}
+}
