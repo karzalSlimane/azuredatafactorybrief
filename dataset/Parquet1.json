@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "yellow_tripdata_2021-03.parquet",
-				"container": "inputdata"
+				"fileName": "yellow_tripdata_2020-09.parquet",
+				"container": "files"
 			},
 			"compressionCodec": "snappy"
 		},
